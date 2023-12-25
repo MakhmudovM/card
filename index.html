@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>newsletter sign up with success message</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card__left-side">
+          <h1 class="card_title">Stay updated!</h1>
+          <p class="card__text">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <form
+            class="card__form"
+            action="https://echo.htmlacademy.ru"
+            method="post"
+          >
+            <label class="card__form-label">
+              <input class="card__form-inputradio" type="checkbox" />
+              <span class="card__form-text"
+                >Product discovery and building what matters</span
+              >
+            </label>
+            <label class="card__form-label">
+              <input class="card__form-inputradio" type="checkbox" />
+              <span class="card__form-text"
+                >Measuring to ensure updates are a success</span
+              >
+            </label>
+            <label class="card__form-label">
+              <input class="card__form-inputradio" type="checkbox" />
+              <span class="card__form-text">And much more!</span>
+            </label>
+          </form>
+          <label class="card__input-label">
+            <span class="card__input-text">Email address</span>
+            <input
+              class="card__input"
+              type="email"
+              placeholder="email@company.com"
+              name="email"
+            />
+          </label>
+          <a class="card__btn" href="#">Subscribe to monthly newsletter</a>
+        </div>
+        <div class="card__right-side">
+          <img src="./img/card-img.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
